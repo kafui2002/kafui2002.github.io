@@ -1,372 +1,372 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
-        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
-        <link rel="stylesheet" href="style.css">
-        <title>My Portfolio</title>
-    </head>
-    <body>
-        <style>
-            :root {
-                --background-color: white;
-                --text-color: black;
-                --border-color: #e7e5e4;
-                --box-shadow-color: rgba(0, 0, 0, 0.1);
-            }
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+   <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+</head>
+  <body>
+    <style>
+        :root {
+            --background-color: white;
+            --text-color: black;
+            --border-color: #e7e5e4;
+            --box-shadow-color: rgba(0, 0, 0, 0.1);
+        }
 
-            body{
-                margin: 0;
-                padding: 0;
-                background-color: var(--background-color);
-                color: var(--text-color);
-            }
-            header{
-                font-family: "Inter", sans-serif;
-                border-bottom: 1px var(--border-color) solid;
-                backdrop-filter: blur(5px); /* Add blur effect */
-                background-color:var(--header-background-color); /* Semi-transparent background */
-                position: fixed;
-                z-index: 1000;
-                width:100%;
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+        header{
+            font-family: "Inter", sans-serif;
+            border-bottom: 1px var(--border-color) solid;
+            backdrop-filter: blur(5px); /* Add blur effect */
+            background-color:var(--header-background-color); /* Semi-transparent background */
+            position: fixed;
+            z-index: 1000;
+            width:100%;
 
 
-            }
-    header nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-left: 90px;
-        padding-right: 75px;
-    }
+        }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 75px;
+}
 
-    nav a{
-        font-size: .875rem;
-        line-height: 1.25rem;
-        font-weight: 500;
-        text-decoration: none;
-        color: var(--text-color);
-        font-size: 20px;
-        margin-right: 15px;
-    }
-    nav button{
-        padding: 10px;
-        text-align: center;
-        border-radius: 12px;
-        border: 1px var(--border-color) solid;
+nav a{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
     color: var(--text-color);
-        background: none;
-        font-size: 20px;
-    }
-    #right_bar{
-        display: flex;
-        align-items: center;
-        
-    }
-
-    main{
-        display: flex;
-        justify-content: center;
-    }
-    #container{
-        width:auto;
-        padding-top:65px ;
-        
-        
-    }
-    #box1{
-        width: 100%;
-    }
-
-    #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8,#box9,#box10,#box11{
-        font-family: "inter", sans-serif;
-        padding: 1.5rem;
-        background-color: var(--background-color);
-        border: 1px var(--border-color) solid;
-        box-shadow: 0 10px 15px -3px var(--box-shadow-color), 0 4px 6px -4px var(--box-shadow-color);
-        border-radius: 1rem;
-        transition: 1s ease-in-out;
-        
-        margin: 10px;
-
-        
-    }
-    #text-box{
-        width: 650px;
-    }
-
-    #box1:hover{
-        border-color: green;
-    }
-    #box2:hover{
-        border-color: green;
-    }
-    #box3:hover{
-        border-color: green;
-    }
-    #box4:hover{
-        border-color: green;
-    }
-    #box5:hover{
-        border-color: green;
-    }
-    #box6:hover{
-        border-color: green;
-    }
-    #box7:hover{
-        border-color: green;
-    }
-    #box8:hover{
-        border-color: green;
-    }
-    #box9:hover{
-        border-color: green;
-    }
-    #box10:hover{
-        border-color: green;
-    }
-    #box11:hover{
-        border-color: green;
-    }
-
-    #box1 h6{
-        font-family: "inter", sans-serif;
-        color:rgb(107 114 128);
-        font-weight: 300;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        margin: 0;
-    }
-    #box1 p{
-        width: 100%;
-        font-weight: 300;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        margin: 0;
-        color: var(--text-color);
-    }
-    #box1 button{
-    cursor: pointer;   
-    background-color: green;
-    padding: .5rem 1rem .5rem 1rem;
-    margin-right: 20px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+nav button{
+    padding: 10px;
     text-align: center;
+    border-radius: 12px;
+    border: 1px var(--border-color) solid;
+   color: var(--text-color);
+    background: none;
+    font-size: 20px;
+}
+#right_bar{
+    display: flex;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    width:auto;
+    padding-top:65px ;
+    
+      
+}
+#box1{
+    width: 100%;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8,#box9,#box10,#box11{
+    font-family: "inter", sans-serif;
+    padding: 1.5rem;
+    background-color: var(--background-color);
+    border: 1px var(--border-color) solid;
+    box-shadow: 0 10px 15px -3px var(--box-shadow-color), 0 4px 6px -4px var(--box-shadow-color);
+    border-radius: 1rem;
+    transition: 1s ease-in-out;
+    
+    margin: 10px;
+
+    
+}
+#text-box{
+    width: 650px;
+}
+
+#box1:hover{
+    border-color: green;
+}
+#box2:hover{
+    border-color: green;
+}
+#box3:hover{
+    border-color: green;
+}
+#box4:hover{
+    border-color: green;
+}
+#box5:hover{
+    border-color: green;
+}
+#box6:hover{
+    border-color: green;
+}
+#box7:hover{
+    border-color: green;
+}
+#box8:hover{
+    border-color: green;
+}
+#box9:hover{
+    border-color: green;
+}
+#box10:hover{
+    border-color: green;
+}
+#box11:hover{
+    border-color: green;
+}
+
+#box1 h6{
+    font-family: "inter", sans-serif;
+    color:rgb(107 114 128);
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+#box1 p{
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 0;
+    color: var(--text-color);
+}
+#box1 button{
+ cursor: pointer;   
+ background-color: green;
+ padding: .5rem 1rem .5rem 1rem;
+margin-right: 20px;
+text-align: center;
+text-decoration: none;
+color: #fafaf9;
+border-radius: 10px;
+border: none;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+}
+.links i{
+    font-size: 1.2rem;
+}
+.links{
+    margin-top: 30px;
+}
+#box1 img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+h3{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+#box2 p, #box3 p{
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: var(--text-color);
+}
+#box2 ul li{
+    color: var(--text-color);
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+#box2 ul{
+    padding: 0;
+    width: 100%;
+    margin-left: 10.5px;
+
+}
+#box3 iframe{
+width: 100%;
+}
+#box3 p{
+    width: 100%;
+}
+#box3 button{
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: green ;
+    border: none;
+    color: #fafaf9;
+    border-radius: 20px;    
+    box-shadow: var(--box-shadow-color);
+
+}
+#box3 a{
     text-decoration: none;
     color: #fafaf9;
-    border-radius: 10px;
-    border: none;
-    }
-    .links a{
-        color: white;
-        text-decoration: none;
-    }
-    .links i{
-        font-size: 1.2rem;
-    }
-    .links{
-        margin-top: 30px;
-    }
-    #box1 img{
-        width: 350px;
-        height: 300px;
-        object-fit: cover;
-        object-position: top;
-    }
-    h2{
-        font-weight: 700;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-    }
-    h3{
-        font-size: 1.125rem;
-        line-height: 1.75rem;
-        font-weight: 600;
-    }
-    #box2 p, #box3 p{
-        font-weight: 300;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        color: var(--text-color);
-    }
-    #box2 ul li{
-        color: var(--text-color);
-        line-height: 1.5rem;
-        font-weight: 400;
-    }
-    #box2 ul{
-        padding: 0;
-        width: 100%;
-        margin-left: 10.5px;
-
-    }
-    #box3 iframe{
-    width: 100%;
-    }
-    #box3 p{
-        width: 100%;
-    }
-    #box3 button{
-        font-size: 1.2rem;
-        line-height: 1.25rem;
-        font-weight: 500;
-        padding: 1rem 2rem 1rem 2rem;
-        background-color: green ;
-        border: none;
-        color: #fafaf9;
-        border-radius: 20px;    
-        box-shadow: var(--box-shadow-color);
-
-    }
-    #box3 a{
-        text-decoration: none;
-        color: #fafaf9;
-    }
-    #circle{
-        animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
-        padding: 4px;
-        width: 4px;
-        height: 4px;
-        border-radius: 50%;
-        background-color: rgba(0, 128, 0, 0.51);
-        position: absolute;
-        margin: -1px 2px 0px -1px;
-        padding: 5px;
-    }
-    #sub-circle{
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: rgb(10, 176, 10);
-        animation: none;
-        position: absolute;
-        margin: 0;
-        padding: 0;
-    }
-    @keyframes ping{
-        75%, 100%{
-            transform: scale(2);
-            opacity: 0;
-        }
-    }
-    #circle-container {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        margin: 0;
-        padding: 0;
-    }
-    #box4 a{
-        font-family: "inter", sans-serif;
-        color:rgb(107 114 128);
-        font-weight: 300;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        margin: 0;
-        text-decoration: none;
-    }
-    #box5 a, #box11 a{
-        text-decoration: none;
-        color: var(--text-color);
-        font-weight: 700;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        
-
-    }
-    #box5 a:hover, #box11 a:hover{
-        text-decoration: underline;
-        color: green;
-
-    }
-    #box6 #timezone{
-        font-weight: 400;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        color: var(--text-color);
-    }
-    #box6 .place, #box7 h6{
-        font-family: "inter", sans-serif;
-        color:rgb(107 114 128);
-        font-weight: 300;
-        font-size: .875rem;
-        line-height: 1.25rem;
-        margin: 0;
-    }
-    #box8{
-        width: 100%;
-    }
-    #box8 h6{
-        margin: 0;
-        padding: 0;
-        color: green;
-        font-size: 14px;
-    }
-    #box8 p, #box7 p, #box7 a{
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 1.25rem;
-        color: var(--text-color);
-        text-decoration: none;
-    }
-    #box9{
-        width:264px;
-        height: 175.5px;
-        font-family: "Inter",sans-serif;
-    }
-    #box9 p{
-        width: 100%;
-        list-style: none;
-        line-height: 30px;
-        border-left: 2px solid #c5c5c5;
-        border-radius: 2px;
-        padding-left: 10px;
-        
-    }
-    #box10{
-        width: 264px;
-        height: 182.5px;
-    }
-    #box10 h2{
-        margin: 0;
-        padding: 0;
-    }
-    #box10 p{
-        border: 1px #e7e5e4 solid;
-        font-size: 12px;
-    font-weight: 400;
+}
+#circle{
+    animation: ping 1s cubic-bezier(0,0,.2,1) infinite;
+    padding: 4px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.51);
+    position: absolute;
+    margin: -1px 2px 0px -1px;
     padding: 5px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin-right: 10px;
-    border-radius: 20px;
+}
+#sub-circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(10, 176, 10);
+    animation: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+@keyframes ping{
+    75%, 100%{
+        transform: scale(2);
+        opacity: 0;
     }
-    #box11 img{
-        width: 214px;
-        height: 280px;
-        object-fit: cover;
-    }
-    #box7{
-        height:525px;
-    }
-    #box7 a{
-        line-height: 30px;
-    }
-    .dark-mode {
-        --background-color: #121212;
-        --text-color: #e0e0e0;
-        --border-color: #333;
-        --box-shadow-color: rgba(0, 0, 0, 0.5);
-        --header-background-color: #1f1f1f69;
-    }
-    </style>
-    <header>
+}
+#circle-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+}
+#box4 a{
+    font-family: "inter", sans-serif;
+    color:rgb(107 114 128);
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin: 0;
+    text-decoration: none;
+}
+#box5 a, #box11 a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    
+
+}
+#box5 a:hover, #box11 a:hover{
+    text-decoration: underline;
+    color: green;
+
+}
+#box6 #timezone{
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: var(--text-color);
+}
+#box6 .place, #box7 h6{
+    font-family: "inter", sans-serif;
+    color:rgb(107 114 128);
+    font-weight: 300;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin: 0;
+}
+#box8{
+    width: 100%;
+}
+#box8 h6{
+    margin: 0;
+    padding: 0;
+    color: green;
+    font-size: 14px;
+}
+#box8 p, #box7 p, #box7 a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.25rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+#box9{
+    width:264px;
+    height: 175.5px;
+    font-family: "Inter",sans-serif;
+}
+#box9 p{
+    width: 100%;
+    list-style: none;
+    line-height: 30px;
+    border-left: 2px solid #c5c5c5;
+    border-radius: 2px;
+    padding-left: 10px;
+    
+}
+#box10{
+    width: 264px;
+    height: 182.5px;
+}
+#box10 h2{
+    margin: 0;
+    padding: 0;
+}
+#box10 p{
+    border: 1px #e7e5e4 solid;
+    font-size: 12px;
+font-weight: 400;
+padding: 5px;
+width: auto;
+height: auto;
+text-align: center;
+margin-right: 10px;
+border-radius: 20px;
+}
+#box11 img{
+    width: 214px;
+    height: 280px;
+    object-fit: cover;
+}
+#box7{
+    height:525px;
+}
+#box7 a{
+    line-height: 30px;
+}
+.dark-mode {
+    --background-color: #121212;
+    --text-color: #e0e0e0;
+    --border-color: #333;
+    --box-shadow-color: rgba(0, 0, 0, 0.5);
+    --header-background-color: #1f1f1f69;
+}
+</style>
+   <header>
     <nav >
         <h1>KCQ</h1>
         <div id="right_bar"> 
@@ -374,8 +374,8 @@
             <button  id="dark-mode-toggle"><i class="fi fi-br-brightness"></i> </button>
         </div>
     </nav>
-    </header>
-    <main>
+   </header>
+<main>
     <div id="container" style="display: flex;">
         <div id="left" style="display:flex; flex-direction:column;"> 
             <div style="display: flex;">
@@ -385,16 +385,16 @@
                             <h6>welcome</h6>
                             <p>Hey there! I'm <b>Kafui Christon-Quao</b>, 
                                 a software developer with five years
-                                of experience creating programs and designing user-friendly websites and applications for companies. My top skills include great communication and problem-solving.I'm passionate about using technology to bring my ideas to life and help the tech world grow. I know my diverse range of skills makes me a creative and versatile person.</p>
-                        
+                                 of experience creating programs and designing user-friendly websites and applications for companies. My top skills include great communication and problem-solving.I'm passionate about using technology to bring my ideas to life and help the tech world grow. I know my diverse range of skills makes me a creative and versatile person.</p>
+                         
                         </div>
                         <div class="links">
                             <button><a href="http://github.com/kafui2002" alt="Github"> <i class="fi fi-brands-github"></i> </a></button>
                             <button><a href="http://linkedin.com/in/kafui-quao" alt="Linkedin"><i class="fi fi-brands-linkedin"></i> </a></button>
                             <button><a href="kafuisotonye@gmail.com"><i class="fi fi-br-envelope"></i></a></button>
-                        </div>   
+                         </div>   
                     </div>
-                    <div><img src="/media/me2.png" alt="me"></div>
+                    <div><img src="/me.png" alt="me"></div>
                 </div>
             </div>
             <div style="display: flex;">
@@ -466,7 +466,7 @@
                     </div>
                     <div id="box11">
                         <a href="">Graphic Design <i class="fi fi-rr-share-square"></i></a>
-                        <img src="/media/me4.png" alt="">
+                        <img src="me2.png" alt="">
                         <p>It's no biggie, but If you want to see my Designs click <a href="#" style="font-size: 16px; font-weight:300">here.</a></p>
                     </div>
                 </div>
@@ -477,19 +477,19 @@
                 <div id="box2">
                     <h3>About me</h3>
                     <p> Hi, I am Kafui, a fullstack software developer from Ghana.</p>
-                    <p> My primary programming tools of choice are:</p>
+                   <p> My primary programming tools of choice are:</p>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>Php</li>
-                        <li>Nodejs</li>
-                        <li>React</li>
+                       <li>HTML</li>
+                       <li>CSS</li>
+                       <li>JavaScript</li>
+                       <li>Python</li>
+                       <li>Java</li>
+                       <li>Php</li>
+                       <li>Nodejs</li>
+                       <li>React</li>
                     </ul>
                     <p>
-                        Beyond coding, I'm passionate about sewing, baking, and drawing. an unusual hobby of mine is crocheting and dooling. I'm always eager to learn new things and I'm excited to see what the future holds for me.
+                       Beyond coding, I'm passionate about sewing, baking, and drawing. an unusual hobby of mine is crocheting and dooling. I'm always eager to learn new things and I'm excited to see what the future holds for me.
                     </p>
                 </div>
             </div>
@@ -507,11 +507,11 @@
             </div>
         </div>
     </div>
-    </main>
-    <footer>
-    <p>Copyright ©2021 My Webpage</p>
-    </footer>
-    <script>
+</main>
+<footer>
+   <p>Copyright ©2021 My Webpage</p>
+</footer>
+<script>
     function updateTime() {
         const now = new Date();
         const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -542,6 +542,6 @@
     updateTime(); // Initial call to display time immediately
     setInterval(updateQuote, 5000); // Update quote every 5 seconds
     updateQuote();
-    </script>
-    </body>
+</script>
+</body>
 </html>
